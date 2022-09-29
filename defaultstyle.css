@@ -3,3 +3,8 @@ body {
   text-align: center;
   color: #00c5ff; 
 }
+button {
+  background-color: #00c5ff;
+  border-radius: 12px;
+  box-shadow: 12px;
+}
