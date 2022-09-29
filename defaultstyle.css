@@ -5,8 +5,12 @@ body {
   font-family: "Fredoka One";
 }
 button {
-  background-color: #00c5ff;
+  background-color: #00ff3c;
   border-radius: 7px;
   box-shadow: 24px;
   font-size: 20px;
+}
+a {
+  color: #00ff3c;
+  text-decoration: underline;
 }
