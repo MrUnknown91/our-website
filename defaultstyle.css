@@ -2,6 +2,7 @@ body {
   background-color: #072933;
   text-align: center;
   color: #00c5ff; 
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
   font-family: "Fredoka One";
 }
 button {
