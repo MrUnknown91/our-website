@@ -10,6 +10,12 @@ button {
   box-shadow: 24px;
   font-size: 20px;
 }
+button.large {
+  background-color: #00ff3c;
+  border-radius: 7px;
+  box-shadow: 24px;
+  font-size: 80px;
+}
 a {
   color: #00ff3c;
   text-decoration: underline;
