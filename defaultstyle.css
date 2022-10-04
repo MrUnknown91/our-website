@@ -20,6 +20,7 @@ a {
   color: #00ff3c;
   text-decoration: underline;
 }
-div.swf {
-  align-content: center;
+div {
+  margin: auto;
+  width: 100px;
 }
