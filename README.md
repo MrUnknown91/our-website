@@ -1,3 +1,5 @@
 # READ THIS IT'S IMPORTANT
 
-This website is only open source for transparency and educational reasons, please don't create copies of this website! (pls no forking)
+If you want to fork this website because your school blocked it feel free to do so below 
+[![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/The-Sour-Patch-Kids/our-website)  
+Do this instead of forking it because it's much easier
