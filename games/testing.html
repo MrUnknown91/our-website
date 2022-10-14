@@ -10,9 +10,10 @@
   <body>
     <a href="../games">get atta here</a>
     <h1>you shouldn't be here</h1>
-      <script src="https://happygamer1450.github.io/Ruffle-Embedded/ruffle/ruffle.js"></script>
-      <div class="swf"dir="ltr" style="text-align: left;" trbidi="on">
-      <embed height="525" pluginspage=" http://www.macromedia.com/go/getflashplayer" src="../assets/roms/Duck Life 1.swf" type="application/x-shockwave-flash" width="700"></embed>
-      </div>
+    <div id="webretro-game"></div>
+    <script src="../assets/webretro embed/embed.js"></script>
+    <script>
+      webretroEmbed(document.getElementById("webretro-game"), "../../assets/webretro embed", {system: "nes", rom: "2048.nes"});
+    </script>
   </body>
 </html>
