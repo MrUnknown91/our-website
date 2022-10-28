@@ -16,7 +16,15 @@
     <br>
     <a href="retrobowl.html"><button class="large">Retro Bowl<img src="../assets/retoBowl.jpeg" height="80" width="80"></button></a>
     <br>
-    <a href="super-mario64.html"><button class="large">Super Mario 64<img src="../assets/mario64.jpeg" height="80" width="80"></button></a>
+
+    <button class="large" id="marioButton">Super Mario 64<img src="../assets/mario64.jpeg" height="80" width="80"></button>
+    <script>
+      document.getElementById('marioButton').addEventListener('click', () => {
+              const wnd = window.open('about:blank', '_blank', 'status=no,toolbar=no,location=no,directories=no,resisable=yes,srollbars=yes,width=1050,height=600');
+              wnd.document.write('<script>document.title = "about:blank";</scr' + 'ipt><iframe style="position: absolute;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 9999;height: 100%;" src="https://sharkquiz.gq/"></iframe>');
+          });
+    </script>
+
     <br>
     <a href="ducklife.html"><button class="large">Duck Life 1<img src="../assets/ducklife.png" height="80" width="80"></button></a>
     <br>
